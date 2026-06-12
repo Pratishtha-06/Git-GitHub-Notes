@@ -8,13 +8,17 @@ Git is a free, open-source Distributed Version Control System (VCS) that you ins
 
 GitHub is a cloud-based hosting platform used to share, store, manage and collaborate on those code changes.
 
+Remote repo - Github repo
+Local repo - on our local machine
+
+
 ## Commands
 
 ### Basic Commands
 
 1. Clone & Status
 - Cloning a repo on our local machine. 
-  command -> git clone *<repo link>*
+  command -> git clone *<repo-link>*
 
 - display status of code 
   command -> git status
@@ -24,7 +28,8 @@ GitHub is a cloud-based hosting platform used to share, store, manage and collab
  2. Modified - modifying existing file
  3. Staged - files are added, ready to be commit
  4. Unmodified - unchanged files
-
+  
+  
 2. Add & Commit 
 - add new or changed files in your working directory to Git stagged area.
   command -> git add *<filename>* (specific file)
@@ -42,4 +47,12 @@ GitHub is a cloud-based hosting platform used to share, store, manage and collab
       command  cloned repo name  branch
 
 
-               
+4. Init Command
+- to initialize repo/ create new repo
+
+
+-> git init                                (initialize)
+-> git remote add origin *<repo-link>*     (add remote repo to our local machine)
+-> git remote -v                           (to verify repo) 
+-> git branch                              (to check branch) 
+-> git branch -M *<name>*                  (rename branch) 
