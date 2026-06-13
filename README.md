@@ -28,6 +28,7 @@ GitHub is a cloud-based hosting platform used to share, store, manage and collab
    2. Modified - modifying existing file
    3. Staged - files are added, ready to be commit
    4. Unmodified - unchanged files
+   5. fghfhuj
 
 2. Add & Commit 
 - add new or changed files in your working directory to Git stagged area.
