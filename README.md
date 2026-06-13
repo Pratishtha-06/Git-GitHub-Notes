@@ -23,13 +23,13 @@ GitHub is a cloud-based hosting platform used to share, store, manage and collab
  git status
 ```
 
-   Types of Status - 
-   1. Untracked - new files git doesn't yet track
-   2. Modified - modifying existing file
-   3. Staged - files are added, ready to be commit
-   4. Unmodified - unchanged files
-
-2. Add & Commit 
+Types of Status - 
+-  Untracked - new files git doesn't yet track
+-  Modified - modifying existing file
+-  Staged - files are added, ready to be commit
+-  Unmodified - unchanged files.
+      
+2.  Add & Commit 
 - add new or changed files in your working directory to Git stagged area.
   ```
   git add *<filename>*  (specific file)
