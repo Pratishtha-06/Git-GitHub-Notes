@@ -162,6 +162,9 @@ A new repository that shares code and visibility settings with the original upst
 It's like a rough copy.
 
 **Other commands-**
+
 ls - list of all files/folders
+
 ls -h - list of hidden files
+
 git log - for commit history
