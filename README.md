@@ -129,7 +129,39 @@ Used to fetch and download content from a remote repo and immediately upadate th
  git pull origin main
 ```
 
-**Resolving Merge Conflicts**
+### Resolving Merge Conflicts
 An event when Git is unable to automatically able to resolve differences in code between two commits.
 
+We can manually accept the changes we want through the options written above the changes Or we can either remove changes we don't want or keep the changes.
+
 ### Undoing Changes
+
+**Case 1 - Staged Changes**
+```
+ git reset <file-name> (for specific file)
+ git reset              (all files)
+
+```
+
+**Case 2 - commited Changes (for one commit)**
+```
+ git reset HEAD~1
+
+```
+**Case 3 - commited Changes (for many commits)**
+```
+ git reset <commit-hash>
+ git reset --hard <commit-hash> 
+ 
+```
+hash - every commit has a hash.
+
+### Fork 
+
+A new repository that shares code and visibility settings with the original upstream repository.
+It's like a rough copy.
+
+**Other commands-**
+ls - list of all files/folders
+ls -h - list of hidden files
+git log - for commit history
