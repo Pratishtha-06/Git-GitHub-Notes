@@ -86,12 +86,22 @@ GitHub is a cloud-based hosting platform used to share, store, manage and collab
 ## Git Branches 
 
 *Branch Diagram*
+<<<<<<< HEAD
+=======
+```
+>>>>>>> 46710f4b24b354be45224adf5ac4eac65a7c2b60
                                         
                         __|branch 1|-----|  (merge point)
                        |                 | / 
 --------|main branch|------------(MB)----|------- main branch(merge all branches)
                        |__               |
+<<<<<<< HEAD
                           |branch 2|-----| 
+=======
+                          |branch 2|-----|
+
+```
+>>>>>>> 46710f4b24b354be45224adf5ac4eac65a7c2b60
 
 ### Branch Commands
 
@@ -120,3 +130,4 @@ GitHub is a cloud-based hosting platform used to share, store, manage and collab
 - Create PR(pull request) on github
 
 Pull Request - It lets you tell others about the changes you've pushed to a branch in a repository on Github.
+
