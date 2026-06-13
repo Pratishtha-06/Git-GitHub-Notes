@@ -131,3 +131,5 @@ Used to fetch and download content from a remote repo and immediately upadate th
 
 **Resolving Merge Conflicts**
 An event when Git is unable to automatically able to resolve differences in code between two commits.
+
+### Undoing Changes
