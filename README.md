@@ -47,7 +47,7 @@ GitHub is a cloud-based hosting platform used to share, store, manage and collab
   (Can be used when branch is ahead of main/orign by any commit. Meaning local repo is ahead of remote repo).
   
   ```
-   git push origin main
+    git push origin main
   ```
   ```
       git push       origin       main
@@ -59,13 +59,13 @@ GitHub is a cloud-based hosting platform used to share, store, manage and collab
 4. Init Command
 - to initialize repo/ create new repo
 
-
--> git init                                (initialize)
--> git remote add origin *<repo-link>*     (add remote repo to our local machine)
--> git remote -v                           (to verify repo) 
--> git branch                              (to check branch) 
--> git branch -M *<name>*                  (rename branch) 
-
+```
+  git init                                (initialize)
+  git remote add origin *<repo-link>*     (add remote repo to our local machine)
+  git remote -v                           (to verify repo) 
+  git branch                              (to check branch) 
+  git branch -M *<name>*                  (rename branch) 
+```
 
 ### Work Flow 
 ```
@@ -99,10 +99,24 @@ GitHub is a cloud-based hosting platform used to share, store, manage and collab
 2. git branch -M main - to rename branch
 3. git checkout *<branch-name>* - to navigate
 4. git checkout -b *<new-branch-name>* - to create new branch
-5.  git checkout -d *<branch-name>* - to delete branch
+5. git checkout -d *<branch-name>* - to delete branch
 
 ### Merge Comands
 
 *Way 1 -*
 
-1. git diff *<branch-name> - to 
+- to compare commits, branch files and more
+```
+ git diff <branch-name>
+```
+
+- to merge branches
+```
+ git merge <branch-name>
+```
+
+*Way 2 -*
+
+- Create PR(pull request) on github
+
+Pull Request - It lets you tell others about the changes you've pushed to a branch in a repository on Github.
