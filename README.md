@@ -85,23 +85,16 @@ GitHub is a cloud-based hosting platform used to share, store, manage and collab
 
 ## Git Branches 
 
-*Branch Diagram*
-<<<<<<< HEAD
-=======
+**Branch Diagram**
+
 ```
->>>>>>> 46710f4b24b354be45224adf5ac4eac65a7c2b60
                                         
                         __|branch 1|-----|  (merge point)
                        |                 | / 
 --------|main branch|------------(MB)----|------- main branch(merge all branches)
                        |__               |
-<<<<<<< HEAD
                           |branch 2|-----| 
-=======
-                          |branch 2|-----|
-
 ```
->>>>>>> 46710f4b24b354be45224adf5ac4eac65a7c2b60
 
 ### Branch Commands
 
@@ -113,8 +106,7 @@ GitHub is a cloud-based hosting platform used to share, store, manage and collab
 
 ### Merge Comands
 
-*Way 1 -*
-
+**Way 1 -**
 - to compare commits, branch files and more
 ```
  git diff <branch-name>
@@ -125,9 +117,17 @@ GitHub is a cloud-based hosting platform used to share, store, manage and collab
  git merge <branch-name>
 ```
 
-*Way 2 -*
-
+**Way 2 -**
 - Create PR(pull request) on github
 
-Pull Request - It lets you tell others about the changes you've pushed to a branch in a repository on Github.
+**Pull Request** - It lets you tell others about the changes you've pushed to a branch in a repository on Github.
 
+### Pull Command
+
+Used to fetch and download content from a remote repo and immediately upadate the local repo to match that content.
+```
+ git pull origin main
+```
+
+**Resolving Merge Conflicts**
+An event when Git is unable to automatically able to resolve differences in code between two commits.
